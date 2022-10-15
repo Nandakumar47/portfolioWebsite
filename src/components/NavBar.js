@@ -29,31 +29,19 @@ function NavBar() {
             className="mr-auto"
             style={{ textAlign: "center", fontSize: "1rem" }}
           >
-            <Nav.Link href="#action1" className="nav__item">
+            <Nav.Link href="#" className="nav__item">
               Home
             </Nav.Link>
-            <Nav.Link href="#action2" className="nav__item">
-              About
-            </Nav.Link>{" "}
-            <Nav.Link href="#action3" className="nav__item">
+            <Nav.Link href="#portfolio" className="nav__item">
               Projects
+            </Nav.Link>{" "}
+            <Nav.Link href="#contact" className="nav__item">
+              Contact me
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    // <Navbar expand="lg">
-    //   <Navbar.Brand href="#home">Nandakumar</Navbar.Brand>
-    //   <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    //   <Navbar.Collapse id="basic-navbar-nav">
-    //     <Nav className=" ml-auto navLinks" variant="light">
-    //       <Nav.Link href="/portfolio">Home</Nav.Link>
-    //       <Nav.Link href="/portfolio/#/education">Education</Nav.Link>
-    //       <Nav.Link href="/portfolio/#/project">Projects</Nav.Link>
-    //       <Nav.Link href="/portfolio/#/contact">Contact</Nav.Link>
-    //     </Nav>
-    //   </Navbar.Collapse>
-    // </Navbar>
   );
 }
 

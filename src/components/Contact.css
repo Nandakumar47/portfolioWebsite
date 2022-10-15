@@ -1,0 +1,12 @@
+.contact__section{
+  padding: 50px;
+}
+.contact__form{
+  width: 700px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.form__Div{
+  padding: 50px;
+}

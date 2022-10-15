@@ -1,3 +1,7 @@
+.main__div{
+  height: fit-content;
+  scroll-behavior: smooth;
+}
 .intro__section_main {
   max-width: 1280px;
   margin: 70px auto;
@@ -52,9 +56,11 @@
   width: auto;
   height: auto;
   padding: 20px;
+
 }
 .skill_grid_items{
     display: flex;
+    
 }
 .name__grid_upperSide > h1 {
   font-weight: 700;
@@ -68,6 +74,10 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 10px;
+
+}
+.icon__card:hover{
+  transform: scale(1.05);
 }
 .name__grid_lowerSide_items p {
   margin: 0;
@@ -81,6 +91,7 @@
   padding: 10px;
   margin-right: 15px;
   cursor: pointer;
+  transition: transform 0.5s;
 }
 .socialMedia>.icon__card:hover {
   color: #eef0f4;
@@ -90,4 +101,29 @@
   display: flex;
   width: 500px;
   justify-content: flex-start;
+}
+.portfolio{
+  max-width: 1280px;
+  margin: 70px auto 0 auto;
+  text-align: center;
+}
+.projects__cardHolder{
+  display: grid;
+  grid-gap:20px;
+  grid-template-columns: auto auto auto;
+  padding: 50px 0;
+}
+.portfolio{
+  background-color: #ecf0f3;
+  
+}
+.contact{
+  max-width: 1280px;
+  margin: 70px auto 0 auto;
+  text-align: center;
+}
+hr{
+  border-top: 2px solid red;
+  width: 70%;
+  
 }

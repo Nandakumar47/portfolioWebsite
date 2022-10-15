@@ -1,0 +1,12 @@
+.projectCard{
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+    
+}
+.projectCard>p{
+    margin-top:10px ;
+    color: #ff014f;
+    font-weight: 700;
+    font-size: small;
+}
