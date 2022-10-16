@@ -9,6 +9,13 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Tooltip from "@mui/material/Tooltip";
+import project1  from "../images/project1.png"
+import project2  from "../images/project2.png"
+import project3  from "../images/project3.png"
+import project4  from "../images/project4.png"
+import project5  from "../images/project5.png"
+import project6  from "../images/project6.png"
+
 import {
   FaReact,
   FaHtml5,
@@ -113,12 +120,12 @@ function Home() {
       <div className="portfolio" id="portfolio">
         <h1>My Projects</h1>
         <div className="projects__cardHolder">
-          <ProjectCard imgSrc="https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-02.jpg" />
-          <ProjectCard imgSrc="https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-03.jpg" />
-          <ProjectCard imgSrc="https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-06.jpg" />
-          <ProjectCard imgSrc="https://nandakumar47.github.io/portfolio/static/media/simons.55363cb5.PNG" />
-          <ProjectCard imgSrc="https://nandakumar47.github.io/portfolio/static/media/todo.40bc6cc8.PNG" />
-          <ProjectCard imgSrc="https://nandakumar47.github.io/portfolio/static/media/notes.adbfda47.PNG" />
+          <ProjectCard heading="Web design" description="To Do list with database" imgSrc={project5}/>
+          <ProjectCard heading="Web design" description="Vidhyut portal" imgSrc={project4} />
+          <ProjectCard heading="Web design" description="Wysa clone" imgSrc={project6}/>
+          <ProjectCard heading="Web design" description="To Do list without database" imgSrc={project1}/>
+          <ProjectCard heading="Web design" description="Simon's game" imgSrc={project2}/>
+          <ProjectCard heading="Web design" description="Notes app" imgSrc={project3} />
         </div>
       </div>
       <div className="contact">
