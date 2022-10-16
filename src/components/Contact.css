@@ -26,6 +26,7 @@ input{
   height: 50px;
   border-radius: 5px;
   border:#DADADA solid 2px;
+  padding-left: 20px;
 }
 form>button{
   border-radius: 5px;
