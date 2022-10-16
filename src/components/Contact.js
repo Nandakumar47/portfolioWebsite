@@ -7,16 +7,24 @@ function Contact() {
       <div className="form__Div card">
         <form action="" className="contact__form ">
           <div>
-            <p>Name</p>
+            <p>YOUR NAME</p>
             <input type="text" name="Name" />
           </div>
           <div>
-            <p>Name</p>
+            <p>PHONE NUMBER</p>
             <input type="text" name="Name" />
           </div>
-          <div>
-            <p>Name</p>
+          <div className="two__column">
+            <p>EMAIL</p>
             <input type="text" name="Name" />
+          </div>{" "}
+          <div className="two__column">
+            <p>SUBJECT</p>
+            <input type="text" name="Name" />
+          </div>{" "}
+          <div className="two__column">
+            <p>YOUR MESSAGE</p>
+            <textarea name="message" rows="5"/>
           </div>
         </form>
       </div>
