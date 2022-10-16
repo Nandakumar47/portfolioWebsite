@@ -3,7 +3,9 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="contact__section">
+    <div
+      className="contact__section"
+    >
       <div className="form__Div card">
         <form action="" className="contact__form ">
           <div>
@@ -24,7 +26,7 @@ function Contact() {
           </div>{" "}
           <div className="two__column">
             <p>YOUR MESSAGE</p>
-            <textarea name="message" rows="5"/>
+            <textarea name="message" rows="5" />
           </div>
         </form>
       </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import informal from "../images/informal.jpg";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import WebIcon from "@mui/icons-material/Web";
@@ -120,12 +122,12 @@ function Home() {
       <div className="portfolio" id="portfolio">
         <h1>My Projects</h1>
         <div className="projects__cardHolder">
-          <ProjectCard heading="Web design" description="To Do list with database" imgSrc={project5}/>
-          <ProjectCard heading="Web design" description="Vidhyut portal" imgSrc={project4} />
-          <ProjectCard heading="Web design" description="Wysa clone" imgSrc={project6}/>
-          <ProjectCard heading="Web design" description="To Do list without database" imgSrc={project1}/>
-          <ProjectCard heading="Web design" description="Simon's game" imgSrc={project2}/>
-          <ProjectCard heading="Web design" description="Notes app" imgSrc={project3} />
+          <ProjectCard projectLink="https://sheltered-cliffs-48922.herokuapp.com/" heading="Web design" description="To Do list with database" imgSrc={project5}/>
+          <ProjectCard projectLink="https://brave-kirch-8c6542.netlify.app/" heading="Web design" description="Vidhyut portal" imgSrc={project4} />
+          <ProjectCard projectLink="https://wysa-clone.netlify.app/" heading="Web design" description="Wysa clone" imgSrc={project6}/>
+          <ProjectCard projectLink="https://nandakumar47.github.io/toDoList/" heading="Web design" description="To Do list without database" imgSrc={project1}/>
+          <ProjectCard projectLink="https://nandakumar47.github.io/simons-game/" heading="Web design" description="Simon's game" imgSrc={project2}/>
+          <ProjectCard projectLink="https://nandakumar47.github.io/notes/" heading="Web design" description="Notes app" imgSrc={project3} />
         </div>
       </div>
       <div className="contact">
@@ -137,5 +139,5 @@ function Home() {
     </div>
   );
 }
-
+AOS.init();
 export default Home;

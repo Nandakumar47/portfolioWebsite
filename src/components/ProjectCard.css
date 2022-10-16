@@ -10,3 +10,7 @@
     font-weight: 700;
     font-size: small;
 }
+.projectCard>a{
+    text-decoration: none;
+    color: #3C3E41;
+}
