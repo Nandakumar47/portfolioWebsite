@@ -27,6 +27,26 @@ input{
   border-radius: 5px;
   border:#DADADA solid 2px;
 }
+form>button{
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.button__div{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-weight: 500;
+}
+.button__div >p{
+  margin: auto;
+  
+}
+
+
 /* .contact__form>div>p{
   margin: 0;
 } */

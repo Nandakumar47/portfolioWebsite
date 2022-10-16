@@ -1,11 +1,9 @@
 import React from "react";
 import "./Contact.css";
-
+import { FiArrowRight } from "react-icons/fi";
 function Contact() {
   return (
-    <div
-      className="contact__section"
-    >
+    <div className="contact__section">
       <div className="form__Div card">
         <form action="" className="contact__form ">
           <div>
@@ -28,6 +26,12 @@ function Contact() {
             <p>YOUR MESSAGE</p>
             <textarea name="message" rows="5" />
           </div>
+          <button className="two__column card" style={{backgroundColor:"#ff014f"}}>
+            <div className="button__div">
+            <p>SEND MESSAGE</p>
+            <FiArrowRight />
+            </div>
+          </button>
         </form>
       </div>
     </div>
