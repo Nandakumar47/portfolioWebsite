@@ -19,7 +19,7 @@ function Contact() {
   function submitMessage(e) {
     e.preventDefault();
     axios
-      .post("https://salty-plains-73732.herokuapp.com/", message)
+      .post("https://glacial-shore-17634.herokuapp.com/", message)
       .then(function (response) {
         console.log(response);
       });
