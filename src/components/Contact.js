@@ -35,7 +35,7 @@ function Contact() {
     console.log(message);
   }
   return (
-    <div className="contact__section">
+    <div className="contact__section" id="contact">
       <div className="form__Div card">
         <form action="" className="contact__form ">
           <div>

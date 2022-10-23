@@ -32,7 +32,7 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <div className="main__div">
+    <div className="main__div" id="home">
       <div className="intro__section_main">
         <div className="grid__holder ">
           <div className="name__grid card">
