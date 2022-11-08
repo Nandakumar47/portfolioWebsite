@@ -2,7 +2,7 @@
     padding: 20px;
     text-align: left;
     border-radius: 20px;
-    
+    cursor: pointer;
 }
 .projectCard>p{
     margin-top:10px ;
