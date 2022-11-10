@@ -124,7 +124,9 @@ hr {
   border-top: 2px solid red;
   width: 70%;
 }
-
+.icon__card *{
+  font-size:1.6rem;
+}
 @media only screen and (max-width: 600px) {
   .grid__holder {
     grid-template-columns: 1fr;
@@ -191,7 +193,7 @@ hr {
   }
   .icon__card {
     width:50px;
-    padding: 5%;
+    padding: 4%;
     margin-right: 15px;
     text-align: center;
     margin-bottom: 5%;
@@ -200,4 +202,5 @@ hr {
     flex-wrap: wrap;
     margin-top: 5%;
   }
+
 }
