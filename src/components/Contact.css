@@ -61,10 +61,10 @@ form>button{
   .form__Div{
     padding: 5%;
     border-radius: 15px;
-    align-items: flex-end;
+    
   }
   .contact__form{
-    min-width: fit-content ;
+    min-width: 100% ;
     margin: auto;
     display: grid;
     grid-template-columns:1fr;
