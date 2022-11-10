@@ -18,3 +18,12 @@ footer{
   background-color: #ff014f;
   color: #fff;
 }
+@media only screen and (max-width: 600px){
+  .footer_items{
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

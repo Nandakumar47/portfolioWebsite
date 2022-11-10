@@ -39,7 +39,11 @@ function Home() {
 
   return (
     <>
-      <NavBar homeHeight={homeHeight} contactHeight={contactHeight} projectHeight={projectHeight}/>
+      <NavBar
+        homeHeight={homeHeight}
+        contactHeight={contactHeight}
+        projectHeight={projectHeight}
+      />
       <div className="main__div" id="home" ref={homeHeight}>
         <div className="intro__section_main">
           <div className="grid__holder ">
@@ -98,7 +102,7 @@ function Home() {
               <div className="skill_grid_items">
                 <Tooltip sx={{ color: "success.main" }} title="ReactJS" arrow>
                   <div className="icon__card">
-                    <FaReact style={{ color: "#61DBFB", fontSize: "25px" }} />
+                    <FaReact style={{ color: "#61DBFB" }} />
                   </div>
                 </Tooltip>
                 <Tooltip
@@ -108,30 +112,30 @@ function Home() {
                 >
                   <div className="icon__card">
                     <SiJavascript
-                      style={{ color: "#F0DB4F", fontSize: "25px" }}
+                      style={{ color: "#F0DB4F" }}
                     />
                   </div>
                 </Tooltip>
                 <Tooltip sx={{ color: "success.main" }} title="HTML" arrow>
                   <div className="icon__card">
-                    <FaHtml5 style={{ color: "#E34C26", fontSize: "25px" }} />
+                    <FaHtml5 style={{ color: "#E34C26" }} />
                   </div>
                 </Tooltip>
                 <Tooltip sx={{ color: "success.main" }} title="CSS" arrow>
                   <div className="icon__card">
-                    <FaCss3Alt style={{ color: "#E31B5F", fontSize: "25px" }} />
+                    <FaCss3Alt style={{ color: "#E31B5F" }} />
                   </div>
                 </Tooltip>
                 <Tooltip sx={{ color: "success.main" }} title="Python" arrow>
                   <div className="icon__card">
-                    <FaPython style={{ color: "#8AC847", fontSize: "25px" }} />
+                    <FaPython style={{ color: "#8AC847" }} />
                   </div>
                 </Tooltip>
               </div>
             </div>
           </div>
         </div>
-        <div className="portfolio" id="portfolio" ref={projectHeight} >
+        <div className="portfolio" id="portfolio" ref={projectHeight}>
           <h1>My Projects</h1>
           <div className="projects__cardHolder">
             <ProjectCard

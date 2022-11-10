@@ -1,4 +1,4 @@
-.main__div{
+.main__div {
   height: fit-content;
   scroll-behavior: smooth;
 }
@@ -56,11 +56,9 @@
   width: auto;
   height: auto;
   padding: 20px;
-
 }
-.skill_grid_items{
-    display: flex;
-    
+.skill_grid_items {
+  display: flex;
 }
 .name__grid_upperSide > h1 {
   font-weight: 700;
@@ -74,9 +72,8 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 10px;
-
 }
-.icon__card:hover{
+.icon__card:hover {
   transform: scale(1.05);
 }
 .name__grid_lowerSide_items p {
@@ -93,7 +90,7 @@
   cursor: pointer;
   transition: transform 0.5s;
 }
-.socialMedia>.icon__card:hover {
+.socialMedia > .icon__card:hover {
   color: #eef0f4;
   background-color: #ff014f;
 }
@@ -102,31 +99,105 @@
   width: 500px;
   justify-content: flex-start;
 }
-.portfolio{
+.portfolio {
   max-width: 1280px;
   margin: 70px auto 0 auto;
   text-align: center;
 }
-.projects__cardHolder{
+.projects__cardHolder {
   display: grid;
-  grid-gap:20px;
+  grid-gap: 20px;
   grid-template-columns: auto auto auto;
   padding: 50px 0;
 }
-.portfolio{
+.portfolio {
   background-color: #ecf0f3;
-  
 }
-.contact{
+.contact {
   max-width: 1280px;
   margin: 70px auto 0 auto;
 }
-.contact>h1{
+.contact > h1 {
   text-align: center;
 }
-hr{
+hr {
   border-top: 2px solid red;
   width: 70%;
-  
 }
 
+@media only screen and (max-width: 600px) {
+  .grid__holder {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: fit-content;
+    align-items: center;
+    gap: 10px;
+  }
+  .name__grid {
+    grid-row:1/2;
+    justify-content: center;
+    margin:0 10px;
+    padding: 5%;
+  }
+  .projects__cardHolder {
+    gap: 20px;
+    grid-template-columns: auto;
+    padding: 0 0;
+    width: 310px;
+  }
+  .image__grid > img {
+    width:290px;
+    object-fit: contain;
+    margin: 0 auto;
+    /* border: solid #fff 50px; */
+    border-radius: 0px;
+    border: solid #fff 10px;
+  }
+  .image__grid {
+    margin-bottom: 0;
+    width: fit-content;
+    padding: 5%;
+    margin: auto;
+  }
+  .intro__section_main {
+    max-width:fit-content;
+    margin: 70px auto;
+  }
+  .socialMedia {
+    margin-top: 4%;
+    display: flex;
+    width: fit-content;
+    justify-content: flex-start;
+  }
+  .portfolio {
+    max-width: fit-content;
+    margin: 70px auto 0 auto;
+    text-align: center;
+  }
+  .name__grid_upperSide > h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .name__grid_upperSide > p {
+    font-size: 0.8rem;
+  }
+  .name__grid_lowerSide_items p {
+    font-size: 0.8rem;
+  }
+  .skill__grid {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+  }
+  .icon__card {
+    width:50px;
+    padding: 5%;
+    margin-right: 15px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .skill_grid_items {
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+}

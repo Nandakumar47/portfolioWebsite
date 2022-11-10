@@ -40,7 +40,6 @@ function NavBar({ homeHeight, contactHeight, projectHeight }) {
             style={{ textAlign: "center", fontSize: "1rem" }}
           >
             <Nav.Link
-          
               className="nav__item"
               onClick={() => {
                 scrollWindow(homeHeight, 2);

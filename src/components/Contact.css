@@ -54,3 +54,27 @@ form>button{
 /* .contact__form:nth-child(-n + 2){
 
 } */
+@media only screen and (max-width: 600px){
+  .contact__section{
+    padding: 5%;
+  }
+  .form__Div{
+    padding: 5%;
+    border-radius: 15px;
+    align-items: flex-end;
+  }
+  .contact__form{
+    min-width: fit-content ;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 15px;
+  }
+  .two__column{
+    grid-column:1/2;
+    width: 100%;
+  }
+  .contact__form>div{
+    width: 100%;
+  }
+}
